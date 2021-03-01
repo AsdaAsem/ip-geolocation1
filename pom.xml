@@ -41,21 +41,21 @@
 			<version>2.12.1</version>
 			<scope>compile</scope>
 		</dependency>
-
+ <!--
 		<dependency>
 			<groupId>org.apache.commons</groupId>
 			<artifactId>commons-lang3</artifactId>
 			<version>3.11</version>
 			<scope>compile</scope>
 		</dependency>
-<!--
+		-->
 		<dependency>
 			<groupId>org.projectlombok</groupId>
 			<artifactId>lombok</artifactId>
 			<version>1.18.18</version>
 			<scope>compile</scope>
 		</dependency>
--->
+
 	</dependencies>
 	<build>
 		<plugins>
@@ -72,7 +72,7 @@
 					<mainClass>${mainClass}</mainClass>
 				</configuration>
 			</plugin>
-<!--
+
 			<plugin>
 				<groupId>org.projectlombok</groupId>
 				<artifactId>lombok-maven-plugin</artifactId>
@@ -86,7 +86,7 @@
 					</execution>
 				</executions>
 			</plugin>
--->
+
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-shade-plugin</artifactId>
@@ -117,6 +117,7 @@
 			</plugin>
 		</plugins>
 	</build>
+	<!--Your comment
 	<reporting>
 		<plugins>
 			<plugin>
@@ -126,4 +127,5 @@
 			</plugin>
 		</plugins>
 	</reporting>
+-->
 </project>
